@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Paper Archive</a>
+            <div class="nav-links">
+                <a href="index.html">Back to Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="detail-container" class="container">
+        <div class="paper-card">
+            <h1 id="detail-title" style="font-size: 28px; margin-bottom: 10px;">Loading...</h1>
+            <p id="detail-authors" style="color: #666; font-style: italic;"></p>
+            <div id="detail-tags" style="margin: 10px 0;"></div>
+            <div class="card-actions">
+                <a id="pdf-btn" class="btn btn-danger" target="_blank">View PDF (Download)</a>
+                <button id="bib-btn" class="btn btn-dark">Copy BibTeX</button>
+            </div>
+            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+            <h3>Abstract</h3>
+            <p id="detail-abstract" style="line-height: 1.8; color: #333;"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
